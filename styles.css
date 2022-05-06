@@ -1,0 +1,33 @@
+body {
+  font-family: 'Roboto', sans-serif;
+  color: aqua;
+}
+.dark-background {
+  background-color: #1f2937;
+}
+
+.navbar {
+  height: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-column {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  /* border: 2px solid green; */
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.header-logo-text {
+  font-size: 24px;
+}
+
+.header-secondary-text {
+  font-size: 18px;
+}
