@@ -1,7 +1,9 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: aqua;
+  margin: 0;
 }
+
 .dark-background {
   background-color: #1f2937;
 }
@@ -9,14 +11,13 @@ body {
 .navbar {
   height: 100px;
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 .navbar-column {
   display: flex;
   width: 100%;
-  justify-content: space-evenly;
-  /* border: 2px solid green; */
+  padding: 25px 100px;
 }
 
 a {
@@ -30,4 +31,28 @@ a {
 
 .header-secondary-text {
   font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.top {
+  display: flex;
+  height: 300px;
+}
+
+.top-column {
+  display: flex;
+  justify-content: space-between;
+  gap: 50px;
+  flex: 1;
+  align-items: flex-start;
+}
+
+.doge {
+  max-width: 80%;
+  max-height: 80%;
+}
+
+.awesome-content {
+  /* display: block; */
 }
