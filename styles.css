@@ -38,6 +38,7 @@ a {
 .top {
   display: flex;
   height: 300px;
+  padding: 0 100px;
 }
 
 .top-column {
@@ -53,6 +54,30 @@ a {
   max-height: 80%;
 }
 
+.hero-secondary-text {
+  font-size: 18px;
+  color: #e5e7eb;
+  margin: 5px 0;
+}
+
+.hero-main-text {
+  font-size: 48px;
+  color: #f9faf8;
+  margin: 0;
+}
+
+.sign-up-btn {
+  background-color: #3882f6;
+  color: white;
+  border: 0;
+  font-weight: 600;
+  /* background: none; */
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 8px 22px;
+}
+
 .awesome-content {
-  /* display: block; */
+  display: flex;
+  align-items: center;
 }
