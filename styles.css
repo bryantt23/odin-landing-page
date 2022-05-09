@@ -39,12 +39,12 @@ a {
   display: flex;
   height: 300px;
   padding: 0 100px;
+  gap: 25px;
 }
 
 .top-column {
   display: flex;
   justify-content: space-between;
-  gap: 50px;
   flex: 1;
   align-items: flex-start;
 }
