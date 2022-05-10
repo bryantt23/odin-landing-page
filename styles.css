@@ -126,3 +126,52 @@ a {
   color: #1f2937;
   font-style: italic;
 }
+
+.call-to-action {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  color: white;
+}
+
+.call-to-action-row {
+  display: flex;
+  background-color: #3882f6;
+  border-radius: 10px;
+  width: 80%;
+}
+
+.call-to-action-column-left {
+  display: flex;
+  flex-direction: column;
+  flex: 2;
+  padding: 0 40px;
+}
+
+.call-to-action-column-right {
+  display: flex;
+  /* flex-direction: column; */
+  align-self: center;
+  justify-content: center;
+  flex: 1;
+}
+
+.call-to-action-header {
+  font-size: 24px;
+  margin-bottom: 0;
+}
+
+.call-to-action-text {
+  margin-top: 5px;
+}
+
+.sign-up-outlined-btn {
+  background-color: #3882f6;
+  color: white;
+  border: 2px solid white;
+  font-weight: 600;
+  /* background: none; */
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 8px 22px;
+}
