@@ -130,8 +130,10 @@ a {
 .call-to-action {
   display: flex;
   justify-content: center;
+  align-items: center;
   padding: 20px;
   color: white;
+  height: 200px;
 }
 
 .call-to-action-row {
@@ -139,6 +141,7 @@ a {
   background-color: #3882f6;
   border-radius: 10px;
   width: 80%;
+  height: 115px;
 }
 
 .call-to-action-column-left {
